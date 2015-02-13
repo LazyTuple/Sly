@@ -1,1 +1,25 @@
-README
+
+Short-Term Goals
+
+* Write Parser: indentation blocks, tokenizer, ident based escapes (novelty).
+* Write Type Checker: pattern matching, simple parameterized ADTs, case expressions, HM type inference.
+
+Long-Term Goals
+
+* Write client, server, schema, and query code in the same language.
+* Client code won't compile until it's type checked against server code.
+* Server code is type checked against current schema.
+* Migrations will break compilation.
+* Exportable to JavaScript and capable of interfacing with CSS and DOM.
+* Some notion of resource management - ie. linear types, computability logic, auto_ptr, etc.
+
+To Be Determined
+
+* Termination checking, well-founded recursion, strict positivity, etc.
+* Scrapping of type annotations and monomorphism problems - ie. no pi types or type classes, just Hindley-Milner.
+* Make up for lack of classes with reasonably powerful modules, fixity, renaming, etc.
+
+Ambitious
+
+* Web based editor with interactive hole filling and type inference.
+* Self-compiling web based IDE with collaboration.
